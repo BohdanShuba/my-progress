@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.TestConfiguration;
 public class TestMyprogressApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.from(MyprogressApplication::main).with(TestMyprogressApplication.class).run(args);
+		SpringApplication.from(MyProgressApplication::main).with(TestMyprogressApplication.class).run(args);
 	}
 
 }
